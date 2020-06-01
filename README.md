@@ -1,2 +1,5 @@
 # single-page-website
-single page website with responsive design for school task
+I have made single page website with responsive design for school task. My commitments are as below.
+- written HTML
+- written CSS
+- editted images
