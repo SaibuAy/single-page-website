@@ -1,0 +1,498 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Noto Sans CJK JP"),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+}
+html{font-size: 62.5%;}
+body{
+	color: #333;
+	font-family: "Roboto", "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+	font-size: 1.6rem;
+	font-feature-settings:"palt";
+	letter-spacing:0.05em;
+	line-height: 1.85;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.text_center{
+	text-align: center;
+}
+.pc__img{
+}
+.sp__img{
+	display: none;
+}
+	.br-pc{display: block;}
+	.br-sp{display: none;}
+
+.headding__line{
+	letter-spacing: 0.2em;
+	font-size: 36px;
+	color: #FFF;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 16px 0;
+}
+.text__box{
+	width: 750px;
+	margin: 80px auto 140px;
+}
+.text_bold{
+	font-weight: bold;
+}
+
+/*----------------------------------------------------------------------
+*
+*headerエリア
+*
+}------------------------------------------------------------------------*/
+
+.header{
+	background: url(../images/header/kv_img.jpg) no-repeat;
+	background-size:cover;
+	height: 42.85vw;
+	position: relative;
+	
+	
+}
+.header_text_logo{
+	padding: 32px 0;
+	
+}
+.header_text{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-45%);
+	background-color: rgba(7,133,123,0.68);
+	padding-bottom: 40px;
+	
+
+}
+
+/*----------------------------------------------------------------------
+*
+*conceptエリア
+*
+}------------------------------------------------------------------------*/
+	
+.head_concept{
+	background-color: #454848;
+}
+
+
+
+
+/*----------------------------------------------------------------------
+*
+*guestエリア
+*
+}------------------------------------------------------------------------*/
+.head_guest{
+	background-color: #07857b;
+}
+.guest_title{
+	padding-bottom: 60px;
+	font-weight: bold;
+}
+
+
+
+/*----------------------------------------------------------------------
+*
+*scheduleエリア
+*
+}------------------------------------------------------------------------*/
+.head_schedule{
+	background-color: #454848;
+}
+.scedule_pict{
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*----------------------------------------------------------------------
+*
+*accessエリア
+*
+}------------------------------------------------------------------------*/
+.head_access{
+	background-color: #07857b;}
+.access_map_outer{
+	position: relative;
+	padding-top: 26.25%;
+}
+.access_text{
+	width: 750px;
+	margin: 80px auto 64px;
+	text-align: center;
+}
+.maps{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+/*----------------------------------------------------------------------
+*
+*entryエリア
+*
+}------------------------------------------------------------------------*/
+
+.head_entry{
+	background-color: #454848;
+}
+.entry{
+	margin: 80px auto 140px;
+}
+.entry_text{
+	padding: 40px 0 120px;
+}
+.form{
+	width: 550px;
+	margin: 0 auto;
+}
+.form_name{
+	padding-bottom: 72px;
+	width: 550px;
+}
+.name{
+	text-align: left;
+}
+.form_parts{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	border: none;
+	border-bottom: solid 1px #999;
+	padding: 8px 0;
+	outline: none;
+	width: 100%;
+	font-size: 1.6rem;
+}
+.form_job{
+	display: flex;
+}
+.form_job_title{
+	padding-right: 72px;
+}
+.form_job_label{
+	margin-right: 36px;
+}
+.form_job_radio{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: #c3c3c3;
+	vertical-align: -3px;
+	outline: none;
+}
+.form_job_radio:checked{
+	background-color: #07857b;
+	box-shadow: 0 0 0 2px #fff,0 0 0 3px #07857b;
+	
+}
+.form_email{
+	padding: 72px 0;
+}
+.form_btn{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	width: 360px;
+	margin: 0 auto;
+	padding: 20px 0;
+	font-size: 2.4rem;
+	letter-spacing: 0.2em;
+	color: #fff;
+	text-transform: capitalize;
+	background-color: #07857b;
+	
+}
+
+/*----------------------------------------------------------------------
+*
+*footerエリア
+*
+}------------------------------------------------------------------------*/
+.footer{
+	background-color: #454548;
+	color: #fff;
+	padding: 80px 0;	
+}
+.footer_text{
+	padding: 32px 0 64px;
+}
+
+/*----------------------------------------------------------------------
+*
+*SPエリア
+*
+}------------------------------------------------------------------------*/
+
+
+@media screen and (max-width:768px){
+
+	.br-pc{display: none;}
+	.br-sp{display: block;}
+
+	
+/*----------------------------------------------------------------------
+*
+*SP headerエリア
+*
+}------------------------------------------------------------------------*/
+
+	.pc__img{
+		display: none;
+	}
+	.sp__img{
+		display: inline;
+	}
+	.header{
+		background: url( ../images/header/kv_img__sp.jpg);
+		background-size: cover;
+		height: 300px;
+		
+	}
+	.header_text_logo{
+		padding: 16px 0;
+		width: 50px;
+		margin: auto;
+	}
+	.header_eyecatch{
+		width: 83.2%;
+	}
+	.header_text{
+		padding-bottom: 16px;
+	}
+/*----------------------------------------------------------------------
+*
+*SP conceptßエリア
+*
+------------------------------------------------------------------------*/
+
+	.headding__line{
+		padding: 16px 0;
+		font-size: 20px;
+		line-height: 1;
+	}
+	.text__box{
+	width: auto;
+	margin: 40px 20px 70px;
+	}
+	
+/*----------------------------------------------------------------------
+*
+*SP guestエリア
+*
+------------------------------------------------------------------------*/
+	
+	.guest_title{
+		padding-bottom: 40px;}
+
+/*----------------------------------------------------------------------
+*
+*SP scheduleエリア
+*
+------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------
+*
+*SP accessエリア
+*
+------------------------------------------------------------------------*/
+	.access_text{
+	width: auto;
+	margin: 40px 20px 40px;
+	text-align: center;
+	}
+	
+	.access_map_outer{
+	position: relative;
+	padding-top: 66.66%;
+	}
+	
+	.maps{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	}
+
+/*----------------------------------------------------------------------
+*
+*SP enryエリア
+*
+------------------------------------------------------------------------*/
+
+	.entry{
+		margin: 40px 20px 70px;
+	}
+	.entry_text{
+		padding: 40px 0 32px;
+	}
+	.form{
+		width: auto;
+		margin: 0;
+	}
+	.form_name{
+		padding-bottom: 40px;
+		width: 100%;
+	}
+
+	.form_parts{
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		appearance:none;
+		border: none;
+		border-bottom: solid 1px #999;
+		padding: 8px 0;
+		outline: none;
+		width: 100%;
+		font-size: 1.6rem;
+	}
+	.form_job{
+		display: block;
+	}
+	.sp__form{
+		display: flex;
+	}
+	.form_job_title{
+		padding-right: none;
+		padding-bottom: 24px;
+	}
+	.form_job_label{
+		margin-right: 20px;
+	}
+	.form_job_radio{
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		appearance:none;
+		width: 18px;
+		height: 18px;
+		margin-right: 10px;
+		border-radius: 50%;
+		background-color: #c3c3c3;
+		vertical-align: -6px;
+		outline: none;
+	}
+	.form_job_radio:checked{
+		background-color: #07857b;
+		box-shadow: 0 0 0 2px #fff,0 0 0 3px #07857b;
+
+	}
+	.form_email{
+		padding: 40px 0;
+	}
+	.form_btn{
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		appearance:none;
+		width: 100%;
+		margin: 0;
+		padding: 12px 0;
+		font-size: 2.4rem;
+		letter-spacing: 0.2em;
+		color: #fff;
+		text-transform: capitalize;
+		background-color: #07857b;
+
+	}
+/*----------------------------------------------------------------------
+*
+*SP footerエリア
+*
+------------------------------------------------------------------------*/
+
+	.footer{
+		padding: 40px 0;	
+	}
+	.footer_text{
+		padding: 32px 0 32px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
